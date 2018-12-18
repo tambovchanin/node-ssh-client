@@ -25,8 +25,7 @@ function parseArguments(next) {
     username: credentials[1],
     password: credentials[2],
     host: credentials[3],
-    port: credentials[4],
-    debug: console.log
+    port: credentials[4]
   });
 }
 
